@@ -1,9 +1,9 @@
 class DotnetCoreSdk < Formula
   desc ".NET Core SDK"
   homepage "http://www.microsoft.com/net/core"
-  url "https://download.microsoft.com/download/1/5/2/1523EBE1-3764-4328-8961-D1BD8ECA9295/dotnet-dev-osx-x64.1.0.0-preview2-003121.tar.gz"
-  version "003121"
-  sha256 "1df92ad4eb117e717acbd68c46b06df4a677f590652099d0cc0982253bdf4534"
+  url "http://download.microsoft.com/download/A/F/6/AF610E6A-1D2D-47D8-80B8-F178951A0C72/Binaries/dotnet-dev-osx-x64.1.0.0-preview2-1-003177.tar.gz"
+  version "1.1"
+  sha256 "8f1ffef37aa9da7273674185dab3b78feb44082d3a9d3156dfc20329acfe7e0d"
 
   depends_on "openssl"
 
