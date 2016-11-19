@@ -9,8 +9,8 @@ class DotnetCoreSdk < Formula
 
   def install
     libexec.install Dir["*"]
-    (libexec + "shared/Microsoft.NETCore.App/1.0.0/libcrypto.1.0.0.dylib").make_symlink Formula["openssl"].lib/"libcrypto.1.0.0.dylib"
-    (libexec + "shared/Microsoft.NETCore.App/1.0.0/libssl.1.0.0.dylib").make_symlink Formula["openssl"].lib/"libssl.1.0.0.dylib"
+    (libexec + "shared/Microsoft.NETCore.App/1.1.0/libcrypto.1.0.0.dylib").make_symlink Formula["openssl"].lib/"libcrypto.1.0.0.dylib"
+    (libexec + "shared/Microsoft.NETCore.App/1.1.0/libssl.1.0.0.dylib").make_symlink Formula["openssl"].lib/"libssl.1.0.0.dylib"
     bin.write_exec_script libexec/"dotnet"
   end
 
