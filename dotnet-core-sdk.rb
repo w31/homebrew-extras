@@ -1,9 +1,9 @@
 class DotnetCoreSdk < Formula
   desc ".NET Core SDK"
   homepage "http://www.microsoft.com/net/core"
-  url "https://download.microsoft.com/download/8/8/5/88544F33-836A-49A5-8B67-451C24709A8F/dotnet-sdk-2.1.300-osx-x64.tar.gz"
-  version "2.1.300"
-  sha256 "3705da0454835e3e0aeea91cdf04aaddf2b117dc0b3842b89893107e51d6478d"
+  url "https://download.microsoft.com/download/D/0/4/D04C5489-278D-4C11-9BD3-6128472A7626/dotnet-sdk-2.1.301-osx-x64.tar.gz"
+  version "2.1.301"
+  sha256 "6d0526fe3afc23a6f467f34dbd63f096045fc8cdd00cbd9fdee98349dffb1d31"
 
   def install
     libexec.install Dir["*"]
