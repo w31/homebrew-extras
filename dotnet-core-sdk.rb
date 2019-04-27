@@ -8,6 +8,9 @@ class DotnetCoreSdk < Formula
   def install
     libexec.install Dir["*"]
     bin.write_exec_script libexec/"dotnet"
+    bin.install_symlink libexec/"host"
+    bin.install_symlink libexec/"sdk"
+    bin.install_symlink libexec/"shared"
   end
 
   test do
