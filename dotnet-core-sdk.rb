@@ -6,11 +6,8 @@ class DotnetCoreSdk < Formula
   sha256 "b38e6f8935d4b82b283d85c6b83cd24b5253730bab97e0e5e6f4c43e2b741aab"
 
   def install
-    libexec.install Dir["*"]
-    bin.write_exec_script libexec/"dotnet"
-    bin.install_symlink libexec/"host"
-    bin.install_symlink libexec/"sdk"
-    bin.install_symlink libexec/"shared"
+    (share/"dotnet").install Dir["*"]
+    bin.install_symlink share/"dotnet/dotnet"
   end
 
   test do
