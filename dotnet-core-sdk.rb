@@ -1,4 +1,4 @@
-class DotnetCoreSdkAT3 < Formula
+class DotnetCoreSdk < Formula
   desc ".NET Core SDK"
   homepage "http://www.microsoft.com/net/core"
   url "https://download.visualstudio.microsoft.com/download/pr/5e3b8ffc-c0c3-4d42-b207-87b91b678cf1/3994f505b0b91ed3858718c6dcd8cf9b/dotnet-sdk-3.1.403-osx-x64.tar.gz"
