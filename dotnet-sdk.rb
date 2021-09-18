@@ -1,9 +1,9 @@
 class DotnetSdk < Formula
   desc ".NET SDK"
   homepage "https://dotnet.microsoft.com/"
-  url "https://download.visualstudio.microsoft.com/download/pr/e5672550-7ab9-439a-8dd4-d5b02608abe3/d1b27ba9dcfa96cd891dde40a406fdc3/dotnet-sdk-5.0.400-osx-x64.tar.gz"
-  version "5.0.400"
-  sha256 "2ab252ba008c8cd0bc53f6ece486085dacf0b4a501c0ede1e312ac16f7d7d2cc"
+  url "https://download.visualstudio.microsoft.com/download/pr/7fe7149d-feaa-44c6-8a7e-a9cfc42b461f/93fdf8bbf05fc293a05abad93c717897/dotnet-sdk-5.0.401-osx-x64.tar.gz"
+  version "5.0.401"
+  sha256 "3fd233080509e20c431b175c98c559eabf00ff2372bff11e45e81b8a942738f0"
 
   def install
     (share/"dotnet").install Dir["*"]
