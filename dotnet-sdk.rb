@@ -10,6 +10,12 @@ class DotnetSdk < Formula
     bin.install_symlink share/"dotnet/dotnet"
   end
 
+  def post_install
+    Dir.glob("#{share}/dotnet/**/*.dylib") do |file|
+      system "/usr/bin/codesign", "-f", "-s", "-", file
+    end
+  end
+
   test do
     system bin/"dotnet", "version"
   end
