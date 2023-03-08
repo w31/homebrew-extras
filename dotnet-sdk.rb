@@ -1,7 +1,7 @@
 class DotnetSdk < Formula
   desc ".NET SDK 7.0"
   homepage "https://dotnet.microsoft.com/"
-  version "6.0.404"
+  version "7.0.201"
 
   on_macos do
     on_arm do
