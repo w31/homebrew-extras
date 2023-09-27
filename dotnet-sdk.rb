@@ -5,7 +5,7 @@ class DotnetSdk < Formula
 
   on_macos do
     on_arm do
-      url "https://download.visualstudio.microsoft.com/download/pr/4246aa3e-4c90-4022-b3d2-5bf36547bfa6/8f75268f923723fb2c4a44b271dbc042/dotnet-sdk-7.0.401-osx-arm64.tar.gz
+      url "https://download.visualstudio.microsoft.com/download/pr/4246aa3e-4c90-4022-b3d2-5bf36547bfa6/8f75268f923723fb2c4a44b271dbc042/dotnet-sdk-7.0.401-osx-arm64.tar.gz"
       sha256 "ec2c93c238b047ac937d27b3cf2fc6e8c28d4b8db626518934f2736204444b4c"
     end
     on_intel do
