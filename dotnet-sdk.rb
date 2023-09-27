@@ -1,16 +1,16 @@
 class DotnetSdk < Formula
   desc ".NET SDK 7.0"
   homepage "https://dotnet.microsoft.com/"
-  version "7.0.400"
+  version "7.0.401"
 
   on_macos do
     on_arm do
-      url "https://download.visualstudio.microsoft.com/download/pr/3df92af2-c066-403b-ae65-10b7ec879b32/a4a5a807d92510d5b74ee8fef9b2babd/dotnet-sdk-7.0.400-osx-arm64.tar.gz"
-      sha256 "04ed7db1fe7da99eb88c8e6496714991ee63effc4eaaa7c4aad33b9a36fdc77c"
+      url "https://download.visualstudio.microsoft.com/download/pr/4246aa3e-4c90-4022-b3d2-5bf36547bfa6/8f75268f923723fb2c4a44b271dbc042/dotnet-sdk-7.0.401-osx-arm64.tar.gz
+      sha256 "ec2c93c238b047ac937d27b3cf2fc6e8c28d4b8db626518934f2736204444b4c"
     end
     on_intel do
-      url "https://download.visualstudio.microsoft.com/download/pr/1a603c4a-7e79-44ef-8e09-426a2c1c6e60/eb3dea0e50d73fbf28edf88aa8378e38/dotnet-sdk-7.0.400-osx-x64.tar.gz"
-      sha256 "6d67846aaaef7f1e49bb80f4e737828ad16527397bd78fdd9cfc978afbb31052"
+      url "https://download.visualstudio.microsoft.com/download/pr/7190497a-9e02-4369-ba8a-29e7a4acc69e/45af3f104e254cc37cf48227bc8e464c/dotnet-sdk-7.0.401-osx-x64.tar.gz"
+      sha256 "256ddd97c98305f99a2d16603af6344362a2d0c5ab5c9b4c9e2ff837ab2adf5d"
     end
   end
 
