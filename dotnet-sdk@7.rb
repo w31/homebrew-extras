@@ -1,4 +1,4 @@
-class DotnetSdk < Formula
+class DotnetSdkAT7 < Formula
   desc ".NET SDK 7.0"
   homepage "https://dotnet.microsoft.com/"
   version "7.0.401"
