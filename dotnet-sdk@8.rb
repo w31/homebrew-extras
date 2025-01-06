@@ -1,4 +1,4 @@
-class DotnetSdk < Formula
+class DotnetSdkAt8 < Formula
   desc ".NET SDK 8.0"
   homepage "https://dotnet.microsoft.com/"
   version "8.0.402"
