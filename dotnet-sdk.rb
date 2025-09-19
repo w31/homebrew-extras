@@ -1,16 +1,16 @@
 class DotnetSdk < Formula
   desc ".NET SDK 9.0"
   homepage "https://dotnet.microsoft.com/"
-  version "9.0.101"
+  version "9.0.305"
 
   on_macos do
     on_arm do
-      url "https://download.visualstudio.microsoft.com/download/pr/6707b71c-f95b-46b9-a4f8-067922291242/93d5be41bfa39461c47bae856a8ad93c/dotnet-sdk-9.0.101-osx-arm64.tar.gz"
-      sha256 "02af7e1225f5f68c47a879fc1180d6382b85d7b2bf6463b10190a5dae941ed6c"
+      url "https://builds.dotnet.microsoft.com/dotnet/Sdk/9.0.305/dotnet-sdk-9.0.305-osx-arm64.tar.gz"
+      sha256 "a39973c92ccbc3001e5b4f5085a67854955a0908fc415841b28b0799d038d101"
     end
     on_intel do
-      url "https://download.visualstudio.microsoft.com/download/pr/330381bd-72dc-47ba-b5fb-884bd8b0bb44/8f1eef9415fc29a806fbf80a54e28c0e/dotnet-sdk-9.0.101-osx-x64.tar.gz"
-      sha256 "84fc014dceaeaba9754f5b4edceb0e1af51d746b4f2d8f0e15df94164694fa77"
+      url "https://builds.dotnet.microsoft.com/dotnet/Sdk/9.0.305/dotnet-sdk-9.0.305-osx-x64.tar.gz"
+      sha256 "035103ed38b487f451b915ae3ec7f04824e8478741569ee2ed1dc066abd27d34"
     end
   end
 
